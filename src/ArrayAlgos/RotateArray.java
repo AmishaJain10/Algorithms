@@ -1,4 +1,4 @@
-package Arrays;
+package ArrayAlgos;
 
 
 /*Rotate array by no of times mentioned

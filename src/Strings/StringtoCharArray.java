@@ -4,7 +4,7 @@ package Strings;
         For example: “leetcode”, return 0 */
 
 
-public class IndexOfNonRepeatingCharacter {
+public class StringtoCharArray {
     public static void main(String args[]) {
         String str = "Amisha";
         StringtoChar(str);

@@ -1,8 +1,10 @@
-package Arrays;
+package ArrayAlgos;
 
 /* Given an array nums, write a function to move all 0’s to the end of it while
 maintaining the relative order of the non-zero elements.
 For example: [0, 1, 0, 3, 12] return: [1, 3, 12, 0, 0]*/
+
+import java.util.Arrays;
 
 public class MoveZerosTotheEnd {
 

@@ -1,4 +1,4 @@
-/*using Binary Search to find highest peak in pattern:
+package SearchingAndSorting;/*using Binary Search to find highest peak in pattern:
 2. Peak Index in a mountain array
         Given an array, return any i (index) such that A[0] < A[1] < ... A[i - 1] < A[i] > A[i + 1] > ... > A[A.length - 1]
         Ex: Input : [0,2,1,0]

@@ -1,3 +1,5 @@
+package SearchingAndSorting;
+
 import java.util.Arrays;
 
 public class BubbleSort {
@@ -36,7 +38,7 @@ public class BubbleSort {
                 break;
             }
 
-           // System.out.println(Arrays.toString(a));
+           // System.out.println(ArrayAlgos.toString(a));
         }
         return a;
     }

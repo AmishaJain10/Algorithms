@@ -1,4 +1,4 @@
-package StringPackage;
+package Strings;
 
 //calculates sum of digits in a number
 

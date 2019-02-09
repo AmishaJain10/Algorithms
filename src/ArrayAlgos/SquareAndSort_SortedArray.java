@@ -1,4 +1,4 @@
-//package Arrays;
+//package ArrayAlgos;
 //
 ///*Squares of a sorted array
 //Given an array of integers sorted in non-decreasing order, return an array of the squares of each number, also in sorted non-decreasing order.

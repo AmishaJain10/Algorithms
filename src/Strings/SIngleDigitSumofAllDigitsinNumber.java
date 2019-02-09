@@ -1,4 +1,4 @@
-package StringPackage;
+package Strings;
 
 /*Giving a string, find the first non-repeating character in it and return its index.
         If it doesn’t exist, return -1
@@ -8,20 +8,21 @@ package StringPackage;
 
 public class SIngleDigitSumofAllDigitsinNumber {
     public static void main(String args[]) {
-        int num = 317;
+        int num = 528;
         int sum = getSum(num);
-        System.out.println(sum);
+        System.out.println("Sum of all digits in given number is: "+sum);
     }
 
     static int getSum(int num){
+        num=Math.abs(num);
         int sum=0;
         while(num!=0){
             sum=sum+num%10;
             num=num/10;
         }
 
-        if(sum/10>0)
-            getSum(sum);
+        if(sum/10!=0)
+            sum=getSum(sum);
 
         return sum;
 

@@ -1,3 +1,5 @@
+package SearchingAndSorting;
+
 public class FirstOccuranceofInteger {
 
     public static void main(String args[]) {

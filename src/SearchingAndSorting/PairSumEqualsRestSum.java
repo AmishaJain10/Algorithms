@@ -1,3 +1,5 @@
+package SearchingAndSorting;
+
 import java.util.Arrays;
 
 public class PairSumEqualsRestSum {
@@ -26,7 +28,7 @@ public class PairSumEqualsRestSum {
     static int[] pairSumEqualsGivenNumber(int[] arr, int sum) {
         selectionSort(arr);
         int[] output= new int[2];
-        //  System.out.println("array is " +Arrays.toString(a));
+        //  System.out.println("array is " +ArrayAlgos.toString(a));
         int left = 0, right = arr.length - 1;
         while (left < right) {
             if (arr[left] + arr[right] == sum) {
@@ -56,7 +58,7 @@ public class PairSumEqualsRestSum {
                 temp = a[i];
                 a[i] = a[min_index];
                 a[min_index] = temp;
-                // System.out.println(Arrays.toString(a));
+                // System.out.println(ArrayAlgos.toString(a));
             }
         }
     }

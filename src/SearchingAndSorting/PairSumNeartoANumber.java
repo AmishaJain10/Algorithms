@@ -1,3 +1,5 @@
+package SearchingAndSorting;
+
 import java.util.Arrays;
 
 public class PairSumNeartoANumber {
